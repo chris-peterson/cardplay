@@ -1,0 +1,16 @@
+actions:
+  - sonos
+
+cards:
+
+  0003971965:
+    action: sonos
+    uri: x-rincon-cpcontainer:1004206ccatalog%2falbums%2fB00UC9EXKW%2f%23album_desc?sid=201&flags=8300&sn=1
+    title: Blurryface
+    meta: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="1004206ccatalog%2falbums%2fB00UC9EXKW%2f%23album_desc" parentID="10052064catalog%2fartists%2fB0033LXVEU%2f%23browse_artist_desc" restricted="true"><dc:title>Blurryface</dc:title><upnp:class>object.container.album.musicAlbum</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON51463_X_#Svc51463-0-Token</desc></item></DIDL-Lite>
+
+  0003971976:
+    action: sonos
+    uri: x-sonosapi-radio:prime%2fstations%2fA3N6ISSL0EPZWG%2f%23chunk-eNsbtkDBRlG9j3p5-HF1xg?sid=201&flags=8300&sn=1
+    title: Modern Folk
+    meta: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="000c206cprime%2fstations%2fA3N6ISSL0EPZWG%2f%23chunk-eNsbtkDBRlG9j3p5-HF1xg" parentID="00020000prime%2fstations%2fsearch%2f:folk" restricted="true"><dc:title>Modern Folk</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON51463_X_#Svc51463-0-Token</desc></item></DIDL-Lite>
