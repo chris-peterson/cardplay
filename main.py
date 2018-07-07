@@ -1,6 +1,7 @@
 import keyboard
 import yaml
 import soco
+import webbrowser
 
 library = yaml.load(open('library.yml'))
 
@@ -25,10 +26,16 @@ while True:
     #print(card_number + ':')
     if card_number in library['cards']:
         card = library['cards'][card_number]
-        if card['action'] == 'sonos':
-            print('\t(sonos:play_uri) ' + card['title'])
-            sonos.play_uri(uri=card['uri'], title=card['title'], meta=card['meta'])
+        action = card['action'].lower()
+        title = card['title']
+        uri = card['uri']
+        meta = card['meta']
+        print('\t(' + action + ') - ' + title)
+        if action == 'sonos':
+            sonos.play_uri(uri=uri, title=title, meta=meta)
+        elif action == 'browser':
+            webbrowser.get(meta).open_new_tab(uri)
         else:
-            print('\t('+ card['action'] + ') unsupported')
+            print('\t|-> unsupported')
     else:
         print('\tno match')
