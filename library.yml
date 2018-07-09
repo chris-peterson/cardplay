@@ -17,3 +17,15 @@ cards:
     uri: https://www.amazon.com/gp/video/detail/B00HV2KPNW/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Frozen
     meta: firefox
+
+  0012551099:
+    action: browser
+    uri: https://www.amazon.com/gp/video/detail/B013FBSOFI/ref=atv_dp_pb_core?autoplay=1&t=0
+    title: Strawberry Shortcake - Berry Tales
+    meta: firefox
+
+  0003971987:
+    action: browser
+    uri: https://www.amazon.com/gp/video/detail/B00OPJAGBA/ref=atv_dp_pb_core?autoplay=1&t=0
+    title: Nocturna
+    meta: firefox
