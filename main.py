@@ -32,7 +32,14 @@ while True:
         meta = card['meta']
         print('\t(' + action + ') - ' + title)
         if action == 'sonos':
-            sonos.play_uri(uri=uri, title=title, meta=meta)
+            if meta == 'playlist':
+                sonos.clear_queue()
+                sonos.add_uri_to_queue(uri)
+                sonos.play_from_queue(0)
+            elif meta == 'tunein':
+                sonos.play_uri(uri=uri, title=title)
+            else: # e.g. amazon music station
+                sonos.play_uri(uri=uri, title=title, meta=meta)
         elif action == 'browser':
             webbrowser.get(meta).open_new_tab(uri)
         else:
