@@ -18,6 +18,9 @@ cards:
     meta: playlist
     title: <Artist> - <Album>
 
+  tbd3:
+    action: diag
+
   0003971965:
     action: browser
     meta: firefox
