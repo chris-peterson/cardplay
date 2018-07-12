@@ -12,6 +12,18 @@ cards:
     uri: x-sonosapi-stream:s35932?sid=254&flags=8224&sn=0
     title: KUOW
 
+  tbd:
+    action: sonos
+    meta: tunein
+    uri: x-sonosapi-stream:s32537?sid=254&flags=8224&sn=0
+    title: KEXP
+
+  tbd2:
+    action: sonos
+    meta: tunein
+    uri: x-sonosapi-stream:s33173?sid=254&flags=8224&sn=0
+    title: KING
+
   0003971976:
     action: sonos
     meta: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="000c206cprime%2fstations%2fA3N6ISSL0EPZWG%2f%23chunk-eNsbtkDBRlG9j3p5-HF1xg" parentID="00020000prime%2fstations%2fsearch%2f:folk" restricted="true"><dc:title>Modern Folk</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON51463_X_#Svc51463-0-Token</desc></item></DIDL-Lite>
@@ -26,42 +38,42 @@ cards:
 
   0003971965:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B01HE0B638/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Beauty and the Beast
 
   0012562382:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B009D5VPTI/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Brave
 
   0003971752:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B00HV2KPNW/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Frozen
 
   0012589957:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B0060CU200/ref=atv_dp_pb_core?autoplay=1&t=0
     title: James and the Giant Peach
 
   0012589950:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B00SXBIWTE/ref=atv_dp_pb_core?autoplay=1&t=0
     title: My Little Pony (Original)
 
   0003971987:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B00OPJAGBA/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Nocturna
 
   0012551099:
     action: browser
-    meta: firefox
+    meta: amz.video
     uri: https://www.amazon.com/gp/video/detail/B013FBSOFI/ref=atv_dp_pb_core?autoplay=1&t=0
     title: Strawberry Shortcake - Berry Tales
