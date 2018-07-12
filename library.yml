@@ -1,4 +1,5 @@
 cards:
+
   0012589972:
     action: diag
     meta: killall
@@ -11,17 +12,17 @@ cards:
     uri: x-sonosapi-stream:s35932?sid=254&flags=8224&sn=0
     title: KUOW
 
-  0012589735:
-    action: sonos
-    meta: playlist
-    uri: file:///jffs/settings/savedqueues.rsq#3 
-    title: <Artist> - <Album>
-
   0003971976:
     action: sonos
     meta: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="000c206cprime%2fstations%2fA3N6ISSL0EPZWG%2f%23chunk-eNsbtkDBRlG9j3p5-HF1xg" parentID="00020000prime%2fstations%2fsearch%2f:folk" restricted="true"><dc:title>Modern Folk</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON51463_X_#Svc51463-0-Token</desc></item></DIDL-Lite>
     uri: x-sonosapi-radio:prime%2fstations%2fA3N6ISSL0EPZWG%2f%23chunk-eNsbtkDBRlG9j3p5-HF1xg?sid=201&flags=8300&sn=1
     title: Modern Folk
+
+  example-album:
+    action: sonos
+    meta: playlist
+    uri: file:///jffs/settings/savedqueues.rsq#3 
+    title: <Artist> - <Album>
 
   0003971965:
     action: browser
