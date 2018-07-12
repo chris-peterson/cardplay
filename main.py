@@ -1,8 +1,7 @@
 import keyboard
-import os
 import psutil
-from selenium import webdriver
 import soco
+import webbrowser
 import yaml
 
 library = yaml.load(open('library.yml'))
@@ -15,13 +14,6 @@ try:
 except:
     print('no sonos found')
     sonos=None
-
-profile_root = next(os.walk(os.path.expanduser('~/Library/Application Support/Firefox/Profiles')))
-profile_path = os.path.join(profile_root[0], profile_root[1][0])
-profile = webdriver.FirefoxProfile(profile_path)
-browser = webdriver.Firefox(profile)
-browser.maximize_window()
-browser.fullscreen_window()
 
 while True:
     print('waiting for event...')
@@ -57,7 +49,7 @@ while True:
             else: # e.g. amazon music station
                 sonos.play_uri(uri=uri, title=title, meta=meta)
         elif action == 'browser':
-            browser.get(uri)
+            webbrowser.get('firefox').open_new_tab(uri)
         elif action == 'diag':
             print('killing all firefox processes...')
             for proc in psutil.process_iter():
