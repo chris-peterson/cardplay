@@ -1,4 +1,5 @@
+keyboard
+psutil
 pyyaml
 pyobjc-framework-Quartz
-keyboard
 soco
