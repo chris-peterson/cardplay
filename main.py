@@ -56,8 +56,11 @@ while True:
                 if proc.status() != 'zombie' and proc.name() == 'firefox':
                     proc.kill()
             if sonos:
-                print('setting sonos input to line in')
-                sonos.switch_to_line_in()
+                try:
+                    print('setting sonos input to line in')
+                    sonos.switch_to_line_in()
+                except:
+                    print('error switching to line in')
         else:
             print('\t|-> unsupported')
     else:
