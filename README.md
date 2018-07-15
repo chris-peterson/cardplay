@@ -4,12 +4,10 @@ Use RFID cards as "physical bookmarks".  Scan them to "play"
 
 ## Supported "play" actions
 
-`cardplay` is designed to support multiple targets.
-
 ### Sonos
 
-Easily play your favorite digital albums on your Sonos.
+Play your favorite playlists or radio stations on your Sonos.
 
-### Amazon Fire TV (future)
+### Browser
 
-Easily play your favorite digital tv shows, moves, music.
+Bring up your favorite bookmarks in browser.

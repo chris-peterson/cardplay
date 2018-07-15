@@ -12,13 +12,13 @@ cards:
     uri: x-sonosapi-stream:s35932?sid=254&flags=8224&sn=0
     title: KUOW
 
-  tbd:
+  0012589735:
     action: sonos
     meta: tunein
     uri: x-sonosapi-stream:s32537?sid=254&flags=8224&sn=0
     title: KEXP
 
-  tbd2:
+  0012589742:
     action: sonos
     meta: tunein
     uri: x-sonosapi-stream:s33173?sid=254&flags=8224&sn=0
